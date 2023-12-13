@@ -1,8 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.ts",
-  devtool: false,
+  entry: "./dist/mjs/index.js",
   mode: "production",
 
   module: {
@@ -21,9 +20,9 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
     fallback: {
-      crypto: false ,
-      stream: false ,
-      path: false ,
+      crypto: false,
+      stream: false,
+      path: false,
       fs: false
     },
   },
@@ -33,10 +32,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "./dist/bundle"),
     // The filename needs to match the index.web.d.ts declarations file.
-    filename: "index.js",
+    filename: "s5-crypto-utils.js",
     library: {
       name: 's5CryptoUtils',
       type: 'umd',
     },
+    globalObject: 'this',
   },
 };

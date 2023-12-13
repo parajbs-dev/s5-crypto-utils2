@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { equalBytes } from "./bytes";
-import { CID_TYPES } from "./constants";
-import { encodeBase32RFC, encodeBase64URL, decodeBase64URL, } from "./basetools";
+import { equalBytes } from "./bytes.js";
+import { CID_TYPES } from "./constants.js";
+import { encodeBase32RFC, encodeBase64URL, decodeBase64URL, } from "./basetools.js";
 /**
  * Represents a Multihash.
  */

@@ -2,6 +2,7 @@
   "name": "s5-crypto-utils",
   "version": "0.1.0-beta3",
   "description": "S5 Crypto Utils Javascript",
+  "type": "module",
   "types": "dist/mjs/index.d.ts",
   "module": "dist/mjs/index.js",
   "exports": {
@@ -26,8 +27,8 @@
     "prepublishOnly": "yarn && yarn build",
     "test": "echo hello",
     "args": "echo second $1 first $0 all $@",
-    "webpack": "npx webpack --config ./webpack.config.js",
-    "webpack-index": "npx webpack --config ./webpack.index.config.js"
+    "webpack": "npx webpack --config ./webpack.config.cjs",
+    "webpack-index": "npx webpack --config ./webpack.index.config.cjs"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

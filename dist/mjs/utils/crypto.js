@@ -4,8 +4,8 @@
 import { Buffer } from "buffer";
 import * as sodium from 'libsodium-wrappers';
 import { blake3 } from "@noble/hashes/blake3";
-import { deriveHashBlake3Int, deriveHashBlake3 } from './derive_hash';
-import { mkeyEd25519 } from "./constants";
+import { deriveHashBlake3Int, deriveHashBlake3 } from './derive_hash.js';
+import { mkeyEd25519 } from "./constants.js";
 /**
  * Represents an Ed25519 key pair.
  */

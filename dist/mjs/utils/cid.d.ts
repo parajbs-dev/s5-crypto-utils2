@@ -1,5 +1,5 @@
-import Multibase from "./multibase";
-import { Multihash } from "./multihash";
+import Multibase from "./multibase.js";
+import { Multihash } from "./multihash.js";
 /**
  * Class representing a CID (Content Identifier).
  */

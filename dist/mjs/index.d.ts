@@ -1,12 +1,12 @@
-import CID from "./utils/cid";
-import Multibase from "./utils/multibase";
-export { equalBytes, concatBytes, hexToBytes, bytesToHex, utf8ToBytes, } from "./utils/bytes";
+import CID from "./utils/cid.js";
+import Multibase from "./utils/multibase.js";
+export { equalBytes, concatBytes, hexToBytes, bytesToHex, utf8ToBytes, } from "./utils/bytes.js";
 export { CID };
-export { encodeCid } from "./utils/cid";
-export { CID_TYPES, REGISTRY_TYPES, CID_HASH_TYPES, } from "./utils/constants";
-export { KeyPairEd25519, CryptoImplementation, _derivePathKeyForPath, deriveKeyForPathSegments, } from "./utils/crypto";
-export { deriveHashBlake3, deriveHashBlake3Int, } from "./utils/derive_hash";
-export { decodeEndian, encodeEndian, decodeEndianN, encodeEndianN, } from "./utils/endian";
+export { encodeCid } from "./utils/cid.js";
+export { CID_TYPES, REGISTRY_TYPES, CID_HASH_TYPES, } from "./utils/constants.js";
+export { KeyPairEd25519, CryptoImplementation, _derivePathKeyForPath, deriveKeyForPathSegments, } from "./utils/crypto.js";
+export { deriveHashBlake3, deriveHashBlake3Int, } from "./utils/derive_hash.js";
+export { decodeEndian, encodeEndian, decodeEndianN, encodeEndianN, } from "./utils/endian.js";
 export { Multibase };
-export { Multihash } from "./utils/multihash";
+export { Multihash } from "./utils/multihash.js";
 //# sourceMappingURL=index.d.ts.map

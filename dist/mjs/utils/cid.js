@@ -1,10 +1,10 @@
 import { Buffer } from "buffer";
-import Multibase from "./multibase";
-import { Multihash } from "./multihash";
-import { mkeyEd25519, cidTypeResolver, cidTypeRaw, mhashBlake3Default, CID_TYPES, REGISTRY_TYPES } from "./constants";
-import { decodeEndian, encodeEndian } from "./endian";
-import { concatBytes, equalBytes, hexToBytes } from "./bytes";
-import { encodeBase58BTC } from "./basetools";
+import Multibase from "./multibase.js";
+import { Multihash } from "./multihash.js";
+import { mkeyEd25519, cidTypeResolver, cidTypeRaw, mhashBlake3Default, CID_TYPES, REGISTRY_TYPES } from "./constants.js";
+import { decodeEndian, encodeEndian } from "./endian.js";
+import { concatBytes, equalBytes, hexToBytes } from "./bytes.js";
+import { encodeBase58BTC } from "./basetools.js";
 /**
  * Class representing a CID (Content Identifier).
  */

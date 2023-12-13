@@ -1,4 +1,4 @@
-import { bytesToHex, hexToBytes, utf8ToBytes } from "./bytes";
+import { bytesToHex, hexToBytes, utf8ToBytes } from "./bytes.js";
 
 import {
   encodeBase58BTC,
@@ -7,7 +7,7 @@ import {
   decodeBase32RFC,
   encodeBase64URL,
   decodeBase64URL,
-} from "./basetools";
+} from "./basetools.js";
 
 /**
  * Multibase is an abstract class for encoding and decoding data using various encoding schemes.

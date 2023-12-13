@@ -1,6 +1,6 @@
 import { Buffer } from "buffer";
-import { CryptoImplementation } from "./crypto";
-import { encodeEndian } from "./endian";
+import { CryptoImplementation } from "./crypto.js";
+import { encodeEndian } from "./endian.js";
 /**
  * Derives a Blake3 hash based on the given base and tweak.
  * @param base - The base Uint8Array with a length of 32.

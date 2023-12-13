@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 
-import CID from "./cid";
-import Multibase from "./multibase";
+import CID from "./cid.js";
+import Multibase from "./multibase.js";
 
 // Main exports.
 
@@ -12,20 +12,20 @@ export {
   hexToBytes,
   bytesToHex,
   utf8ToBytes,
-} from "./bytes";
+} from "./bytes.js";
 
 // cid export.
 export { CID };
 
 // cid exports.
-export { encodeCid } from "./cid";
+export { encodeCid } from "./cid.js";
 
 // constants exports.
 export {
   CID_TYPES,
   REGISTRY_TYPES,
   CID_HASH_TYPES,
-} from "./constants";
+} from "./constants.js";
 
 // crypto exports.
 export {
@@ -33,13 +33,13 @@ export {
   CryptoImplementation,
   _derivePathKeyForPath,
   deriveKeyForPathSegments,
-} from "./crypto";
+} from "./crypto.js";
 
 // derive_hash exports.
 export {
   deriveHashBlake3,
   deriveHashBlake3Int,
-} from "./derive_hash";
+} from "./derive_hash.js";
 
 // endian exports.
 export {
@@ -47,11 +47,11 @@ export {
   encodeEndian,
   decodeEndianN,
   encodeEndianN,
-} from "./endian";
+} from "./endian.js";
 
 // multibase exports.
 export { Multibase };
 
 // multihash exports.
-export { Multihash } from "./multihash";
+export { Multihash } from "./multihash.js";
 
